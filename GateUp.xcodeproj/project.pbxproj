@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */; };
+		3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9181DB807FD001DE5C3 /* ViewController.swift */; };
+		3CFAA91C1DB807FD001DE5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */; };
+		3CFAA91E1DB807FD001DE5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFAA91D1DB807FD001DE5C3 /* Assets.xcassets */; };
+		3CFAA9211DB807FD001DE5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFAA91F1DB807FD001DE5C3 /* LaunchScreen.storyboard */; };
+		3CFAA92C1DB807FD001DE5C3 /* GateUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA92B1DB807FD001DE5C3 /* GateUpTests.swift */; };
+		3CFAA9371DB807FD001DE5C3 /* GateUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9361DB807FD001DE5C3 /* GateUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CFAA9281DB807FD001DE5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFAA90B1DB807FD001DE5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFAA9121DB807FD001DE5C3;
+			remoteInfo = GateUp;
+		};
+		3CFAA9331DB807FD001DE5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFAA90B1DB807FD001DE5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFAA9121DB807FD001DE5C3;
+			remoteInfo = GateUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CFAA9131DB807FD001DE5C3 /* GateUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CFAA9181DB807FD001DE5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CFAA91B1DB807FD001DE5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CFAA91D1DB807FD001DE5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFAA9201DB807FD001DE5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CFAA9221DB807FD001DE5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFAA9271DB807FD001DE5C3 /* GateUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GateUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFAA92B1DB807FD001DE5C3 /* GateUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateUpTests.swift; sourceTree = "<group>"; };
+		3CFAA92D1DB807FD001DE5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFAA9321DB807FD001DE5C3 /* GateUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GateUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFAA9361DB807FD001DE5C3 /* GateUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateUpUITests.swift; sourceTree = "<group>"; };
+		3CFAA9381DB807FD001DE5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFAA9101DB807FD001DE5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFAA9241DB807FD001DE5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFAA92F1DB807FD001DE5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFAA90A1DB807FD001DE5C3 = {
+			isa = PBXGroup;
+			children = (
+				3CFAA9151DB807FD001DE5C3 /* GateUp */,
+				3CFAA92A1DB807FD001DE5C3 /* GateUpTests */,
+				3CFAA9351DB807FD001DE5C3 /* GateUpUITests */,
+				3CFAA9141DB807FD001DE5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFAA9141DB807FD001DE5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFAA9131DB807FD001DE5C3 /* GateUp.app */,
+				3CFAA9271DB807FD001DE5C3 /* GateUpTests.xctest */,
+				3CFAA9321DB807FD001DE5C3 /* GateUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFAA9151DB807FD001DE5C3 /* GateUp */ = {
+			isa = PBXGroup;
+			children = (
+				3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */,
+				3CFAA9181DB807FD001DE5C3 /* ViewController.swift */,
+				3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */,
+				3CFAA91D1DB807FD001DE5C3 /* Assets.xcassets */,
+				3CFAA91F1DB807FD001DE5C3 /* LaunchScreen.storyboard */,
+				3CFAA9221DB807FD001DE5C3 /* Info.plist */,
+			);
+			path = GateUp;
+			sourceTree = "<group>";
+		};
+		3CFAA92A1DB807FD001DE5C3 /* GateUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFAA92B1DB807FD001DE5C3 /* GateUpTests.swift */,
+				3CFAA92D1DB807FD001DE5C3 /* Info.plist */,
+			);
+			path = GateUpTests;
+			sourceTree = "<group>";
+		};
+		3CFAA9351DB807FD001DE5C3 /* GateUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFAA9361DB807FD001DE5C3 /* GateUpUITests.swift */,
+				3CFAA9381DB807FD001DE5C3 /* Info.plist */,
+			);
+			path = GateUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFAA9121DB807FD001DE5C3 /* GateUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFAA93B1DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUp" */;
+			buildPhases = (
+				3CFAA90F1DB807FD001DE5C3 /* Sources */,
+				3CFAA9101DB807FD001DE5C3 /* Frameworks */,
+				3CFAA9111DB807FD001DE5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GateUp;
+			productName = GateUp;
+			productReference = 3CFAA9131DB807FD001DE5C3 /* GateUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CFAA9261DB807FD001DE5C3 /* GateUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFAA93E1DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUpTests" */;
+			buildPhases = (
+				3CFAA9231DB807FD001DE5C3 /* Sources */,
+				3CFAA9241DB807FD001DE5C3 /* Frameworks */,
+				3CFAA9251DB807FD001DE5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFAA9291DB807FD001DE5C3 /* PBXTargetDependency */,
+			);
+			name = GateUpTests;
+			productName = GateUpTests;
+			productReference = 3CFAA9271DB807FD001DE5C3 /* GateUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CFAA9311DB807FD001DE5C3 /* GateUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFAA9411DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUpUITests" */;
+			buildPhases = (
+				3CFAA92E1DB807FD001DE5C3 /* Sources */,
+				3CFAA92F1DB807FD001DE5C3 /* Frameworks */,
+				3CFAA9301DB807FD001DE5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFAA9341DB807FD001DE5C3 /* PBXTargetDependency */,
+			);
+			name = GateUpUITests;
+			productName = GateUpUITests;
+			productReference = 3CFAA9321DB807FD001DE5C3 /* GateUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFAA90B1DB807FD001DE5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Matheus Leite";
+				TargetAttributes = {
+					3CFAA9121DB807FD001DE5C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X92Q7KS5VW;
+						ProvisioningStyle = Automatic;
+					};
+					3CFAA9261DB807FD001DE5C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X92Q7KS5VW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CFAA9121DB807FD001DE5C3;
+					};
+					3CFAA9311DB807FD001DE5C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X92Q7KS5VW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CFAA9121DB807FD001DE5C3;
+					};
+				};
+			};
+			buildConfigurationList = 3CFAA90E1DB807FD001DE5C3 /* Build configuration list for PBXProject "GateUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CFAA90A1DB807FD001DE5C3;
+			productRefGroup = 3CFAA9141DB807FD001DE5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFAA9121DB807FD001DE5C3 /* GateUp */,
+				3CFAA9261DB807FD001DE5C3 /* GateUpTests */,
+				3CFAA9311DB807FD001DE5C3 /* GateUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFAA9111DB807FD001DE5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFAA9211DB807FD001DE5C3 /* LaunchScreen.storyboard in Resources */,
+				3CFAA91E1DB807FD001DE5C3 /* Assets.xcassets in Resources */,
+				3CFAA91C1DB807FD001DE5C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFAA9251DB807FD001DE5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFAA9301DB807FD001DE5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFAA90F1DB807FD001DE5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */,
+				3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFAA9231DB807FD001DE5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFAA92C1DB807FD001DE5C3 /* GateUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFAA92E1DB807FD001DE5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFAA9371DB807FD001DE5C3 /* GateUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CFAA9291DB807FD001DE5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFAA9121DB807FD001DE5C3 /* GateUp */;
+			targetProxy = 3CFAA9281DB807FD001DE5C3 /* PBXContainerItemProxy */;
+		};
+		3CFAA9341DB807FD001DE5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFAA9121DB807FD001DE5C3 /* GateUp */;
+			targetProxy = 3CFAA9331DB807FD001DE5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFAA91B1DB807FD001DE5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CFAA91F1DB807FD001DE5C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFAA9201DB807FD001DE5C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFAA9391DB807FD001DE5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CFAA93A1DB807FD001DE5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFAA93C1DB807FD001DE5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X92Q7KS5VW;
+				INFOPLIST_FILE = GateUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gateup.GateUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3CFAA93D1DB807FD001DE5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X92Q7KS5VW;
+				INFOPLIST_FILE = GateUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gateup.GateUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3CFAA93F1DB807FD001DE5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X92Q7KS5VW;
+				INFOPLIST_FILE = GateUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gateup.GateUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GateUp.app/GateUp";
+			};
+			name = Debug;
+		};
+		3CFAA9401DB807FD001DE5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X92Q7KS5VW;
+				INFOPLIST_FILE = GateUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gateup.GateUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GateUp.app/GateUp";
+			};
+			name = Release;
+		};
+		3CFAA9421DB807FD001DE5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X92Q7KS5VW;
+				INFOPLIST_FILE = GateUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gateup.GateUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GateUp;
+			};
+			name = Debug;
+		};
+		3CFAA9431DB807FD001DE5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X92Q7KS5VW;
+				INFOPLIST_FILE = GateUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gateup.GateUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GateUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFAA90E1DB807FD001DE5C3 /* Build configuration list for PBXProject "GateUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFAA9391DB807FD001DE5C3 /* Debug */,
+				3CFAA93A1DB807FD001DE5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFAA93B1DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFAA93C1DB807FD001DE5C3 /* Debug */,
+				3CFAA93D1DB807FD001DE5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CFAA93E1DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFAA93F1DB807FD001DE5C3 /* Debug */,
+				3CFAA9401DB807FD001DE5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CFAA9411DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFAA9421DB807FD001DE5C3 /* Debug */,
+				3CFAA9431DB807FD001DE5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFAA90B1DB807FD001DE5C3 /* Project object */;
+}
