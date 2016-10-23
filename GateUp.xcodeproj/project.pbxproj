@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */; };
+		3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F41F1DBD0010006C957E /* LoginViewController.swift */; };
+		3C40F4221DBD017E006C957E /* DesignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F4211DBD017E006C957E /* DesignManager.swift */; };
+		3C40F42F1DBD0595006C957E /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F4241DBD0595006C957E /* TitilliumWeb-Black.ttf */; };
+		3C40F4301DBD0595006C957E /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F4251DBD0595006C957E /* TitilliumWeb-Bold.ttf */; };
+		3C40F4311DBD0595006C957E /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F4261DBD0595006C957E /* TitilliumWeb-BoldItalic.ttf */; };
+		3C40F4321DBD0595006C957E /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F4271DBD0595006C957E /* TitilliumWeb-ExtraLight.ttf */; };
+		3C40F4331DBD0595006C957E /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F4281DBD0595006C957E /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		3C40F4341DBD0595006C957E /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F4291DBD0595006C957E /* TitilliumWeb-Italic.ttf */; };
+		3C40F4351DBD0595006C957E /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42A1DBD0595006C957E /* TitilliumWeb-Light.ttf */; };
+		3C40F4361DBD0595006C957E /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42B1DBD0595006C957E /* TitilliumWeb-LightItalic.ttf */; };
+		3C40F4371DBD0595006C957E /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42C1DBD0595006C957E /* TitilliumWeb-Regular.ttf */; };
+		3C40F4381DBD0595006C957E /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42D1DBD0595006C957E /* TitilliumWeb-SemiBold.ttf */; };
+		3C40F4391DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42E1DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf */; };
 		3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */; };
 		3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9181DB807FD001DE5C3 /* ViewController.swift */; };
 		3CFAA91C1DB807FD001DE5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */; };
@@ -34,6 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3C40F41F1DBD0010006C957E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C40F4211DBD017E006C957E /* DesignManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignManager.swift; sourceTree = "<group>"; };
+		3C40F4241DBD0595006C957E /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		3C40F4251DBD0595006C957E /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		3C40F4261DBD0595006C957E /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3C40F4271DBD0595006C957E /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3C40F4281DBD0595006C957E /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3C40F4291DBD0595006C957E /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		3C40F42A1DBD0595006C957E /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		3C40F42B1DBD0595006C957E /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		3C40F42C1DBD0595006C957E /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		3C40F42D1DBD0595006C957E /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		3C40F42E1DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3CFAA9131DB807FD001DE5C3 /* GateUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFAA9181DB807FD001DE5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +102,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C40F41A1DBBBDEB006C957E /* Login/SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */,
+				3C40F41F1DBD0010006C957E /* LoginViewController.swift */,
+			);
+			name = Login/SignUp;
+			sourceTree = "<group>";
+		};
+		3C40F4231DBD0490006C957E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C40F4241DBD0595006C957E /* TitilliumWeb-Black.ttf */,
+				3C40F4251DBD0595006C957E /* TitilliumWeb-Bold.ttf */,
+				3C40F4261DBD0595006C957E /* TitilliumWeb-BoldItalic.ttf */,
+				3C40F4271DBD0595006C957E /* TitilliumWeb-ExtraLight.ttf */,
+				3C40F4281DBD0595006C957E /* TitilliumWeb-ExtraLightItalic.ttf */,
+				3C40F4291DBD0595006C957E /* TitilliumWeb-Italic.ttf */,
+				3C40F42A1DBD0595006C957E /* TitilliumWeb-Light.ttf */,
+				3C40F42B1DBD0595006C957E /* TitilliumWeb-LightItalic.ttf */,
+				3C40F42C1DBD0595006C957E /* TitilliumWeb-Regular.ttf */,
+				3C40F42D1DBD0595006C957E /* TitilliumWeb-SemiBold.ttf */,
+				3C40F42E1DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3CFAA90A1DB807FD001DE5C3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +152,9 @@
 		3CFAA9151DB807FD001DE5C3 /* GateUp */ = {
 			isa = PBXGroup;
 			children = (
+				3C40F4231DBD0490006C957E /* Resources */,
+				3C40F4211DBD017E006C957E /* DesignManager.swift */,
+				3C40F41A1DBBBDEB006C957E /* Login/SignUp */,
 				3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */,
 				3CFAA9181DB807FD001DE5C3 /* ViewController.swift */,
 				3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */,
@@ -235,9 +293,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C40F4391DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				3C40F4301DBD0595006C957E /* TitilliumWeb-Bold.ttf in Resources */,
 				3CFAA9211DB807FD001DE5C3 /* LaunchScreen.storyboard in Resources */,
 				3CFAA91E1DB807FD001DE5C3 /* Assets.xcassets in Resources */,
+				3C40F4341DBD0595006C957E /* TitilliumWeb-Italic.ttf in Resources */,
 				3CFAA91C1DB807FD001DE5C3 /* Main.storyboard in Resources */,
+				3C40F4361DBD0595006C957E /* TitilliumWeb-LightItalic.ttf in Resources */,
+				3C40F4371DBD0595006C957E /* TitilliumWeb-Regular.ttf in Resources */,
+				3C40F4311DBD0595006C957E /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				3C40F4331DBD0595006C957E /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				3C40F42F1DBD0595006C957E /* TitilliumWeb-Black.ttf in Resources */,
+				3C40F4351DBD0595006C957E /* TitilliumWeb-Light.ttf in Resources */,
+				3C40F4381DBD0595006C957E /* TitilliumWeb-SemiBold.ttf in Resources */,
+				3C40F4321DBD0595006C957E /* TitilliumWeb-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */,
+				3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */,
 				3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */,
+				3C40F4221DBD017E006C957E /* DesignManager.swift in Sources */,
 				3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +584,7 @@
 				3CFAA93D1DB807FD001DE5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CFAA93E1DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUpTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +593,7 @@
 				3CFAA9401DB807FD001DE5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CFAA9411DB807FD001DE5C3 /* Build configuration list for PBXNativeTarget "GateUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +602,7 @@
 				3CFAA9431DB807FD001DE5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
