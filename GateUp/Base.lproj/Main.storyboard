@@ -6,6 +6,20 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="TitilliumWeb-Bold.ttf">
+            <string>TitilliumWeb-Bold</string>
+        </array>
+        <array key="TitilliumWeb-Light.ttf">
+            <string>TitilliumWeb-Light</string>
+        </array>
+        <array key="TitilliumWeb-Regular.ttf">
+            <string>TitilliumWeb-Regular</string>
+        </array>
+        <array key="TitilliumWeb-SemiBold.ttf">
+            <string>TitilliumWeb-SemiBold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -25,7 +39,7 @@
                                     <constraint firstAttribute="width" constant="188" id="ALF-Gk-QSH"/>
                                     <constraint firstAttribute="height" constant="60" id="z06-zo-ECf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="TitilliumWeb-SemiBold" family="Titillium Web" pointSize="19"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="1" green="0.99667292829999998" blue="0.98753482100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -35,7 +49,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFD-te-mdL">
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="TitilliumWeb-SemiBold" family="Titillium Web" pointSize="19"/>
                                 <state key="normal" title="Entrar">
                                     <color key="titleColor" red="1" green="0.99667292829999998" blue="0.98753482100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -47,7 +61,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="78" id="1dx-oG-dun"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <fontDescription key="fontDescription" name="TitilliumWeb-Bold" family="Titillium Web" pointSize="32"/>
                                 <color key="textColor" red="1" green="0.99667292829999998" blue="0.98753482100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -68,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="-1450" y="1230"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ik5-Au-Eo3">
@@ -87,14 +101,14 @@
             </objects>
             <point key="canvasLocation" x="433" y="901"/>
         </scene>
-        <!--Cadastrar-->
+        <!--CADASTRAR-->
         <scene sceneID="SwP-sq-MZ6">
             <objects>
                 <tableViewController id="4IR-A8-VoH" customClass="SignUpViewController" customModule="GateUp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="g0e-df-Ioy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.1372351348400116" green="0.13726624846458435" blue="0.13723316788673401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection id="y5W-oZ-Upt">
                                 <cells>
@@ -107,6 +121,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9Y-44-xJq">
                                                     <color key="backgroundColor" red="0.2274509804" green="0.35686274509999999" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="18"/>
                                                     <state key="normal" title="Cadastrar com Facebook">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
@@ -119,7 +134,7 @@
                                                 <constraint firstItem="E9Y-44-xJq" firstAttribute="leading" secondItem="PWe-0m-4aM" secondAttribute="leadingMargin" constant="8" id="upK-OC-0q0"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="sUm-o3-k7v">
                                         <rect key="frame" x="0.0" y="204" width="375" height="44"/>
@@ -132,13 +147,13 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="F2n-TY-wZx"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Seu nome" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UH4-6n-dHY">
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="NOME" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UH4-6n-dHY">
+                                                    <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
@@ -151,7 +166,7 @@
                                                 <constraint firstItem="GGx-J4-PYR" firstAttribute="leading" secondItem="7GQ-XD-ud6" secondAttribute="leadingMargin" id="zlY-ln-tV5"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EV3-up-jTw">
                                         <rect key="frame" x="0.0" y="248" width="375" height="44"/>
@@ -164,13 +179,13 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="kTd-UN-MM0"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email@email.com" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MK2-X9-pzc">
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
@@ -183,7 +198,7 @@
                                                 <constraint firstItem="MK2-X9-pzc" firstAttribute="leading" secondItem="KrT-bK-HRz" secondAttribute="trailing" constant="8" symbolic="YES" id="rSj-lJ-4JC"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="s5u-SR-pyE">
                                         <rect key="frame" x="0.0" y="292" width="375" height="44"/>
@@ -196,14 +211,14 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="wA7-4q-zWt"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="********" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e2j-9a-cye">
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -215,7 +230,7 @@
                                                 <constraint firstItem="Rs8-NV-DBu" firstAttribute="leading" secondItem="3xQ-Vf-aGj" secondAttribute="leadingMargin" id="uLe-D8-FfT"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="105" id="A4d-HG-neN">
                                         <rect key="frame" x="0.0" y="336" width="375" height="105"/>
@@ -226,9 +241,13 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXe-6A-FrN">
                                                     <color key="backgroundColor" red="1" green="0.99667292829999998" blue="0.98753482100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="18"/>
                                                     <state key="normal" title="Entrar ">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="Yk4-iF-YrI" kind="presentation" modalTransitionStyle="crossDissolve" id="64k-zB-uYG"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -238,17 +257,181 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="sXe-6A-FrN" secondAttribute="bottom" constant="6" id="r9W-hP-OI4"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Cadastrar" id="XjA-fw-Bz7"/>
+                    <navigationItem key="navigationItem" title="CADASTRAR" id="XjA-fw-Bz7"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVe-qc-J6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1212" y="1602.5487256371816"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="iLa-ul-Spk">
+            <objects>
+                <viewController id="RjZ-mw-huP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OZJ-r7-ks1"/>
+                        <viewControllerLayoutGuide type="bottom" id="t9n-yl-1NU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I0V-1X-42i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="C7n-gv-7Uc"/>
+                    <navigationItem key="navigationItem" id="OCU-7w-hQ7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uh5-aE-47N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4622" y="1573"/>
+        </scene>
+        <!--PAGAMENTO-->
+        <scene sceneID="Os2-zj-Ic7">
+            <objects>
+                <viewController id="mub-kD-5T2" customClass="ParkListViewController" customModule="GateUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fa5-um-A2V"/>
+                        <viewControllerLayoutGuide type="bottom" id="NPQ-g9-RLw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mMU-lM-Lfh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estacionamento mais próximo:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJ9-0v-TM5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DmA-TY-jul"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="454-OB-aAg">
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="AdD-Z6-rbn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TitilliumWeb-SemiBold" family="Titillium Web" pointSize="24"/>
+                                <state key="normal" title="Um Shopping">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Yy-qB-0iV">
+                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="parkCell" rowHeight="60" id="X6k-pp-bZj" customClass="ParkListTableViewCell" customModule="GateUp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X6k-pp-bZj" id="cNo-Gh-zuS">
+                                            <frame key="frameInset" width="342" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrW-9F-zL0">
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Light" family="Titillium Web" pointSize="14"/>
+                                                    <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Píer 21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQC-2M-TQa">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="FGB-Do-lWC"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jQC-2M-TQa" firstAttribute="trailing" secondItem="WrW-9F-zL0" secondAttribute="trailing" id="LUa-OW-dCK"/>
+                                                <constraint firstItem="WrW-9F-zL0" firstAttribute="top" secondItem="jQC-2M-TQa" secondAttribute="bottom" constant="1" id="QGY-er-XIa"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="jQC-2M-TQa" secondAttribute="trailing" constant="-33" id="R29-y0-upb"/>
+                                                <constraint firstItem="jQC-2M-TQa" firstAttribute="leading" secondItem="cNo-Gh-zuS" secondAttribute="leadingMargin" id="U6O-6E-tre"/>
+                                                <constraint firstItem="jQC-2M-TQa" firstAttribute="top" secondItem="cNo-Gh-zuS" secondAttribute="topMargin" id="YpF-02-dgX"/>
+                                                <constraint firstItem="jQC-2M-TQa" firstAttribute="leading" secondItem="WrW-9F-zL0" secondAttribute="leading" id="c7B-y8-vAW"/>
+                                                <constraint firstItem="WrW-9F-zL0" firstAttribute="bottom" secondItem="cNo-Gh-zuS" secondAttribute="bottomMargin" id="cQG-ba-2aZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="parkDistance" destination="WrW-9F-zL0" id="f7t-0r-wt2"/>
+                                            <outlet property="parkName" destination="jQC-2M-TQa" id="OoE-bY-wF9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escolha outros:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wd2-gj-1hh">
+                                <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="454-OB-aAg" firstAttribute="top" secondItem="qJ9-0v-TM5" secondAttribute="bottom" constant="8" symbolic="YES" id="4kJ-2j-peI"/>
+                            <constraint firstItem="qJ9-0v-TM5" firstAttribute="leading" secondItem="454-OB-aAg" secondAttribute="leading" id="MfH-Rn-Ls8"/>
+                            <constraint firstAttribute="trailing" secondItem="0Yy-qB-0iV" secondAttribute="trailing" id="OhI-7X-rtd"/>
+                            <constraint firstItem="0Yy-qB-0iV" firstAttribute="top" secondItem="wd2-gj-1hh" secondAttribute="bottom" constant="8" symbolic="YES" id="Syx-Vl-bjw"/>
+                            <constraint firstItem="qJ9-0v-TM5" firstAttribute="leading" secondItem="mMU-lM-Lfh" secondAttribute="leadingMargin" id="WdO-Vp-SNX"/>
+                            <constraint firstItem="wd2-gj-1hh" firstAttribute="centerX" secondItem="0Yy-qB-0iV" secondAttribute="centerX" id="Xl8-h1-WxF"/>
+                            <constraint firstItem="0Yy-qB-0iV" firstAttribute="leading" secondItem="mMU-lM-Lfh" secondAttribute="leading" id="Xoz-Fe-Xja"/>
+                            <constraint firstItem="qJ9-0v-TM5" firstAttribute="trailing" secondItem="454-OB-aAg" secondAttribute="trailing" id="cBw-9q-0o9"/>
+                            <constraint firstItem="454-OB-aAg" firstAttribute="leading" secondItem="wd2-gj-1hh" secondAttribute="leading" id="dc3-aE-km3"/>
+                            <constraint firstItem="454-OB-aAg" firstAttribute="trailing" secondItem="wd2-gj-1hh" secondAttribute="trailing" id="dhu-fr-W4W"/>
+                            <constraint firstItem="qJ9-0v-TM5" firstAttribute="top" secondItem="Fa5-um-A2V" secondAttribute="bottom" constant="16" id="fu6-A1-MCB"/>
+                            <constraint firstItem="NPQ-g9-RLw" firstAttribute="top" secondItem="0Yy-qB-0iV" secondAttribute="bottom" constant="8" symbolic="YES" id="otZ-cG-IV7"/>
+                            <constraint firstItem="wd2-gj-1hh" firstAttribute="top" secondItem="454-OB-aAg" secondAttribute="bottom" constant="78" id="tuC-rM-a2Z"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="lYm-VH-YX1"/>
+                    <navigationItem key="navigationItem" title="PAGAMENTO" id="yC2-xR-HFA"/>
+                    <connections>
+                        <outlet property="nearestParkButton" destination="454-OB-aAg" id="5wt-Uo-J36"/>
+                        <outlet property="parkListTableView" destination="0Yy-qB-0iV" id="2DL-ri-vEF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xqR-wg-knX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4621.6000000000004" y="815.44227886056979"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yWp-SY-vP2">
+            <objects>
+                <viewController id="CzW-Ez-KbP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="52q-LU-akv"/>
+                        <viewControllerLayoutGuide type="bottom" id="vuS-pK-FgG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kuS-MK-iGo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4u-1u-z9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5386" y="815"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JRv-Nk-FFy">
+            <objects>
+                <tabBarController id="Yk4-iF-YrI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="HcX-2Y-aOp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.99667292829999998" blue="0.98753482100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fgw-bg-NVD" kind="relationship" relationship="viewControllers" id="Ss6-ec-Ufl"/>
+                        <segue destination="cM4-6e-g8t" kind="relationship" relationship="viewControllers" id="vWT-W3-x4R"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vm3-Tj-3Vk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2830" y="1239"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="L85-xW-n4N">
@@ -287,6 +470,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wb-we-uJV">
                                                     <color key="backgroundColor" red="0.2274509804" green="0.35686274509999999" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="18"/>
                                                     <state key="normal" title="Entrar com Facebook">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
@@ -312,13 +496,13 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="lg5-fM-qxS"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email@email.com" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sNx-xz-RiO">
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
@@ -344,13 +528,13 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="52" id="9dL-2H-wEh"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="********" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ku-oG-0il">
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                 </textField>
                                             </subviews>
@@ -374,9 +558,13 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYy-c0-TD1">
                                                     <color key="backgroundColor" red="1" green="0.99667292829999998" blue="0.98753482100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="18"/>
                                                     <state key="normal" title="Entrar ">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="Yk4-iF-YrI" kind="presentation" modalTransitionStyle="crossDissolve" id="Mif-YG-jAJ"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -402,5 +590,44 @@
             </objects>
             <point key="canvasLocation" x="1212" y="901"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="xMn-dT-imd">
+            <objects>
+                <navigationController id="fgw-bg-NVD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="L49-nl-egD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="y6g-7H-MTn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mub-kD-5T2" kind="relationship" relationship="rootViewController" id="pDK-dk-Ibm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1sP-nQ-yYY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3783" y="817"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Gs1-SM-sKl">
+            <objects>
+                <navigationController id="cM4-6e-g8t" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="HDx-VL-KIW"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NiC-ap-fie">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RjZ-mw-huP" kind="relationship" relationship="rootViewController" id="Y8b-YY-wAW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Il-XK-Axa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3782" y="1573"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Mif-YG-jAJ"/>
+    </inferredMetricsTieBreakers>
 </document>

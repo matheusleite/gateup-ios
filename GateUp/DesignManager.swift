@@ -17,7 +17,7 @@ class DesignManager: NSObject {
     override init() {
         
         var fontAttributes = [String : AnyObject]()
-        let font = UIFont(name: "TitilliumWeb-SemiBold", size: 17)
+        let font = UIFont(name: "TitilliumWeb-SemiBold", size: 19)
         fontAttributes = [NSFontAttributeName : font!, NSForegroundColorAttributeName : white]
         
         //navBar
@@ -52,6 +52,18 @@ extension UIColor {
             (a, r, g, b) = (1, 1, 1, 0)
         }
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
+    }
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
 }
 

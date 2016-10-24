@@ -21,6 +21,8 @@
 		3C40F4371DBD0595006C957E /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42C1DBD0595006C957E /* TitilliumWeb-Regular.ttf */; };
 		3C40F4381DBD0595006C957E /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42D1DBD0595006C957E /* TitilliumWeb-SemiBold.ttf */; };
 		3C40F4391DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C40F42E1DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		3C4125931DBE52EA00659A1A /* ParkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4125921DBE52EA00659A1A /* ParkListViewController.swift */; };
+		3C4125951DBE531800659A1A /* ParkListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4125941DBE531800659A1A /* ParkListTableViewCell.swift */; };
 		3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */; };
 		3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA9181DB807FD001DE5C3 /* ViewController.swift */; };
 		3CFAA91C1DB807FD001DE5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */; };
@@ -62,6 +64,8 @@
 		3C40F42C1DBD0595006C957E /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
 		3C40F42D1DBD0595006C957E /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
 		3C40F42E1DBD0595006C957E /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3C4125921DBE52EA00659A1A /* ParkListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkListViewController.swift; sourceTree = "<group>"; };
+		3C4125941DBE531800659A1A /* ParkListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkListTableViewCell.swift; sourceTree = "<group>"; };
 		3CFAA9131DB807FD001DE5C3 /* GateUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFAA9181DB807FD001DE5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,10 +161,12 @@
 				3C40F41A1DBBBDEB006C957E /* Login/SignUp */,
 				3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */,
 				3CFAA9181DB807FD001DE5C3 /* ViewController.swift */,
+				3C4125921DBE52EA00659A1A /* ParkListViewController.swift */,
 				3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */,
 				3CFAA91D1DB807FD001DE5C3 /* Assets.xcassets */,
 				3CFAA91F1DB807FD001DE5C3 /* LaunchScreen.storyboard */,
 				3CFAA9221DB807FD001DE5C3 /* Info.plist */,
+				3C4125941DBE531800659A1A /* ParkListTableViewCell.swift */,
 			);
 			path = GateUp;
 			sourceTree = "<group>";
@@ -331,10 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4125931DBE52EA00659A1A /* ParkListViewController.swift in Sources */,
 				3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */,
 				3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */,
 				3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */,
 				3C40F4221DBD017E006C957E /* DesignManager.swift in Sources */,
+				3C4125951DBE531800659A1A /* ParkListTableViewCell.swift in Sources */,
 				3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
