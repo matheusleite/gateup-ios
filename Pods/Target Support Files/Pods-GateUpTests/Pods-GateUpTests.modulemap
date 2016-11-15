@@ -1,0 +1,6 @@
+framework module Pods_GateUpTests {
+  umbrella header "Pods-GateUpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

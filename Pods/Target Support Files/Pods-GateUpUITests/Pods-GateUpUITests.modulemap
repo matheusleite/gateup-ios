@@ -1,0 +1,6 @@
+framework module Pods_GateUpUITests {
+  umbrella header "Pods-GateUpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
