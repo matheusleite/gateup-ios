@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let p1 = Parking()
+        p1.name = "Parkshopping"
+        p1.latitude = "43"
+        p1.longitude = "28"
+        p1.taxPerMin = "0.10"
+        
+        let p2 = Parking()
+        p2.name = "Píer 21"
+        p2.latitude = "44"
+        p2.longitude = "27"
+        p2.taxPerMin = "0.14"
+        
+        Parking.sharedInstance.parkings.append(p1)
+        Parking.sharedInstance.parkings.append(p2)
+        
         return true
     }
 

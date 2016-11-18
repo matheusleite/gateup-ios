@@ -771,7 +771,7 @@
         <!--ESTACIONAMENTOS-->
         <scene sceneID="ICn-Qy-Vu2">
             <objects>
-                <viewController id="Cez-XX-jbR" customClass="ParkingInfoTableViewController" customModule="GateUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cez-XX-jbR" customClass="ParkingInfoViewController" customModule="GateUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vKC-uF-g10"/>
                         <viewControllerLayoutGuide type="bottom" id="xxL-tR-veO"/>
@@ -827,7 +827,6 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="eSk-cu-Gfk"/>
                     <navigationItem key="navigationItem" title="ESTACIONAMENTOS" id="s5U-4k-TdA"/>
                     <connections>
-                        <outlet property="parkingsTableView" destination="as5-6L-ZJl" id="aGv-gs-dRk"/>
                         <segue destination="NRK-rB-Occ" kind="show" id="co2-bm-COv"/>
                     </connections>
                 </viewController>

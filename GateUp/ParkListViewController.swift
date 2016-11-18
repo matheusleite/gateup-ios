@@ -22,7 +22,6 @@ class ParkListViewController: UIViewController, UITableViewDelegate, UITableView
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // MARK: - Park List Table View
@@ -32,13 +31,15 @@ class ParkListViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return Parking.sharedInstance.parkings.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "parkCell") as! ParkListTableViewCell
         
-        cell.parkName.text = "Super Shopping"
+        
+        let park = Parking.sharedInstance.parkings[indexPath.row]
+        cell.parkName.text = park.name
         cell.parkDistance.text = "2 km"
         
         return cell
