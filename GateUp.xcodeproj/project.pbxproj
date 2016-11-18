@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0C652B74DBE36EB031032489 /* Pods_GateUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9960D2AC7D7E4C080608887A /* Pods_GateUpTests.framework */; };
 		1045957DFD0909F6E8DA8CC7 /* Pods_GateUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D45A4EA8EC9EF45CBF6330 /* Pods_GateUpUITests.framework */; };
+		3C06B3291DDF59F10084BF82 /* ParkingInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06B3281DDF59F10084BF82 /* ParkingInfoTableViewController.swift */; };
+		3C06B32B1DDF5AAD0084BF82 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06B32A1DDF5AAD0084BF82 /* ProfileTableViewController.swift */; };
 		3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */; };
 		3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F41F1DBD0010006C957E /* LoginViewController.swift */; };
 		3C40F4221DBD017E006C957E /* DesignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F4211DBD017E006C957E /* DesignManager.swift */; };
@@ -55,6 +57,8 @@
 /* Begin PBXFileReference section */
 		07D45A4EA8EC9EF45CBF6330 /* Pods_GateUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B524D64398A9C25BC423C0 /* Pods-GateUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GateUpTests/Pods-GateUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C06B3281DDF59F10084BF82 /* ParkingInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingInfoTableViewController.swift; sourceTree = "<group>"; };
+		3C06B32A1DDF5AAD0084BF82 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3C40F41F1DBD0010006C957E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3C40F4211DBD017E006C957E /* DesignManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignManager.swift; sourceTree = "<group>"; };
@@ -203,6 +207,8 @@
 				3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */,
 				3CFAA9181DB807FD001DE5C3 /* ViewController.swift */,
 				3C4125921DBE52EA00659A1A /* ParkListViewController.swift */,
+				3C06B32A1DDF5AAD0084BF82 /* ProfileTableViewController.swift */,
+				3C06B3281DDF59F10084BF82 /* ParkingInfoTableViewController.swift */,
 				3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */,
 				3C4125941DBE531800659A1A /* ParkListTableViewCell.swift */,
 			);
@@ -516,12 +522,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C06B32B1DDF5AAD0084BF82 /* ProfileTableViewController.swift in Sources */,
 				3C4125931DBE52EA00659A1A /* ParkListViewController.swift in Sources */,
 				3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */,
 				3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */,
 				3CFAA9191DB807FD001DE5C3 /* ViewController.swift in Sources */,
 				3C40F4221DBD017E006C957E /* DesignManager.swift in Sources */,
 				3C4125951DBE531800659A1A /* ParkListTableViewCell.swift in Sources */,
+				3C06B3291DDF59F10084BF82 /* ParkingInfoTableViewController.swift in Sources */,
 				3CFAA9171DB807FD001DE5C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

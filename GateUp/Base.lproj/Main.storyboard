@@ -732,11 +732,11 @@
             </objects>
             <point key="canvasLocation" x="1212" y="901"/>
         </scene>
-        <!--Pagar-->
+        <!--Navigation Controller-->
         <scene sceneID="xMn-dT-imd">
             <objects>
                 <navigationController id="fgw-bg-NVD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pagar" id="L49-nl-egD"/>
+                    <tabBarItem key="tabBarItem" title="" image="payment" selectedImage="payment_filled" id="L49-nl-egD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="y6g-7H-MTn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -750,11 +750,11 @@
             </objects>
             <point key="canvasLocation" x="3783" y="817"/>
         </scene>
-        <!--Estacionamentos-->
+        <!--Navigation Controller-->
         <scene sceneID="Gs1-SM-sKl">
             <objects>
                 <navigationController id="cM4-6e-g8t" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Estacionamentos" id="HDx-VL-KIW"/>
+                    <tabBarItem key="tabBarItem" title="" image="gate" selectedImage="gate_filled" id="HDx-VL-KIW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NiC-ap-fie">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -768,10 +768,10 @@
             </objects>
             <point key="canvasLocation" x="3782" y="1573"/>
         </scene>
-        <!--PAGAMENTO-->
+        <!--ESTACIONAMENTOS-->
         <scene sceneID="ICn-Qy-Vu2">
             <objects>
-                <viewController id="Cez-XX-jbR" sceneMemberID="viewController">
+                <viewController id="Cez-XX-jbR" customClass="ParkingInfoTableViewController" customModule="GateUp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vKC-uF-g10"/>
                         <viewControllerLayoutGuide type="bottom" id="xxL-tR-veO"/>
@@ -825,9 +825,9 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="eSk-cu-Gfk"/>
-                    <navigationItem key="navigationItem" title="PAGAMENTO" id="s5U-4k-TdA"/>
+                    <navigationItem key="navigationItem" title="ESTACIONAMENTOS" id="s5U-4k-TdA"/>
                     <connections>
-                        <outlet property="parkListTableView" destination="as5-6L-ZJl" id="7YO-vu-Ass"/>
+                        <outlet property="parkingsTableView" destination="as5-6L-ZJl" id="aGv-gs-dRk"/>
                         <segue destination="NRK-rB-Occ" kind="show" id="co2-bm-COv"/>
                     </connections>
                 </viewController>
@@ -1060,10 +1060,10 @@
             </objects>
             <point key="canvasLocation" x="5421.6000000000004" y="1572.8635682158922"/>
         </scene>
-        <!--Table View Controller-->
+        <!--PERFIL-->
         <scene sceneID="Oam-m8-88x">
             <objects>
-                <tableViewController id="iI5-fo-zZv" sceneMemberID="viewController">
+                <tableViewController id="iI5-fo-zZv" customClass="ProfileTableViewController" customModule="GateUp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="2d7-Kq-95S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1148,17 +1148,22 @@
                             <outlet property="delegate" destination="iI5-fo-zZv" id="hU8-9t-Dhf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Zwe-hP-6Q5"/>
+                    <navigationItem key="navigationItem" title="PERFIL" id="Zwe-hP-6Q5"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="oFd-hk-mDv" id="yE2-Qk-SwI"/>
+                        <outlet property="profileImage" destination="6cJ-MJ-ebz" id="E7S-dl-LKA"/>
+                        <outlet property="userNameLabel" destination="nTa-wP-DCY" id="d0G-Ha-Ifk"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sty-Bx-7jc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4621.6000000000004" y="2323.9880059970019"/>
         </scene>
-        <!--Perfil-->
+        <!--Navigation Controller-->
         <scene sceneID="eiw-lw-JD9">
             <objects>
                 <navigationController id="usi-61-0bM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Perfil" id="Ye3-5G-kLr"/>
+                    <tabBarItem key="tabBarItem" title="" image="profile" selectedImage="profile_filled" id="Ye3-5G-kLr"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dIa-1w-TMM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1172,7 +1177,7 @@
             </objects>
             <point key="canvasLocation" x="3799" y="2324"/>
         </scene>
-        <!--Table View Controller-->
+        <!--CONFIGURAÇÕES-->
         <scene sceneID="8lw-bd-fE9">
             <objects>
                 <tableViewController id="Sc4-4E-IiW" sceneMemberID="viewController">
@@ -1311,7 +1316,7 @@
                             <outlet property="delegate" destination="Sc4-4E-IiW" id="tur-PO-004"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="zSC-g9-KiP"/>
+                    <navigationItem key="navigationItem" title="CONFIGURAÇÕES" id="zSC-g9-KiP"/>
                 </tableViewController>
                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="4hd-d9-N0F">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1337,11 +1342,11 @@
             </objects>
             <point key="canvasLocation" x="4622" y="3116"/>
         </scene>
-        <!--Configurações-->
+        <!--Navigation Controller-->
         <scene sceneID="zWr-vT-aS5">
             <objects>
                 <navigationController id="vya-qa-9mN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Configurações" id="N7L-9f-5jH"/>
+                    <tabBarItem key="tabBarItem" title="" image="Settings" selectedImage="settings_filled" id="N7L-9f-5jH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="X09-ik-OBM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1356,6 +1361,16 @@
             <point key="canvasLocation" x="3798" y="3116"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Settings" width="25" height="25"/>
+        <image name="gate" width="25" height="25"/>
+        <image name="gate_filled" width="25" height="25"/>
+        <image name="payment" width="25" height="25"/>
+        <image name="payment_filled" width="25" height="25"/>
+        <image name="profile" width="25" height="25"/>
+        <image name="profile_filled" width="25" height="25"/>
+        <image name="settings_filled" width="25" height="25"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="64k-zB-uYG"/>
     </inferredMetricsTieBreakers>
