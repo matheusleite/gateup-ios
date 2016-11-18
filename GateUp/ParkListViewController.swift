@@ -16,8 +16,11 @@ class ParkListViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        nearestParkButton.setTitle(Parking.sharedInstance.parkings.first?.name, for: .normal)
+        
         parkListTableView.delegate = self
         parkListTableView.dataSource = self
+        parkListTableView.tableFooterView = UIView()
     }
 
     override func didReceiveMemoryWarning() {

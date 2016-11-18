@@ -12,6 +12,8 @@
 		3C06B32B1DDF5AAD0084BF82 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06B32A1DDF5AAD0084BF82 /* ProfileTableViewController.swift */; };
 		3C3E45EF1DDFB09B00E68C80 /* ParkingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E45EE1DDFB09B00E68C80 /* ParkingInfoViewController.swift */; };
 		3C3E45F11DDFB0DB00E68C80 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E45F01DDFB0DB00E68C80 /* Parking.swift */; };
+		3C3E45F31DDFB5F700E68C80 /* ParkInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E45F21DDFB5F700E68C80 /* ParkInfoTableViewCell.swift */; };
+		3C3E45F51DDFB64D00E68C80 /* ParkInfoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E45F41DDFB64D00E68C80 /* ParkInfoDetailTableViewController.swift */; };
 		3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */; };
 		3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F41F1DBD0010006C957E /* LoginViewController.swift */; };
 		3C40F4221DBD017E006C957E /* DesignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40F4211DBD017E006C957E /* DesignManager.swift */; };
@@ -61,6 +63,8 @@
 		3C06B32A1DDF5AAD0084BF82 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		3C3E45EE1DDFB09B00E68C80 /* ParkingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingInfoViewController.swift; sourceTree = "<group>"; };
 		3C3E45F01DDFB0DB00E68C80 /* Parking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		3C3E45F21DDFB5F700E68C80 /* ParkInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkInfoTableViewCell.swift; sourceTree = "<group>"; };
+		3C3E45F41DDFB64D00E68C80 /* ParkInfoDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkInfoDetailTableViewController.swift; sourceTree = "<group>"; };
 		3C40F41B1DBBBE02006C957E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3C40F41F1DBD0010006C957E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3C40F4211DBD017E006C957E /* DesignManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignManager.swift; sourceTree = "<group>"; };
@@ -207,12 +211,14 @@
 				3C40F4211DBD017E006C957E /* DesignManager.swift */,
 				3C40F41A1DBBBDEB006C957E /* Login/SignUp */,
 				3CFAA9161DB807FD001DE5C3 /* AppDelegate.swift */,
+				3C3E45F41DDFB64D00E68C80 /* ParkInfoDetailTableViewController.swift */,
 				3CFAA9181DB807FD001DE5C3 /* ViewController.swift */,
 				3C4125921DBE52EA00659A1A /* ParkListViewController.swift */,
 				3C06B32A1DDF5AAD0084BF82 /* ProfileTableViewController.swift */,
 				3C3E45EE1DDFB09B00E68C80 /* ParkingInfoViewController.swift */,
 				3CFAA91A1DB807FD001DE5C3 /* Main.storyboard */,
 				3C4125941DBE531800659A1A /* ParkListTableViewCell.swift */,
+				3C3E45F21DDFB5F700E68C80 /* ParkInfoTableViewCell.swift */,
 				3C3E45F01DDFB0DB00E68C80 /* Parking.swift */,
 			);
 			path = GateUp;
@@ -527,7 +533,9 @@
 			files = (
 				3C06B32B1DDF5AAD0084BF82 /* ProfileTableViewController.swift in Sources */,
 				3C4125931DBE52EA00659A1A /* ParkListViewController.swift in Sources */,
+				3C3E45F51DDFB64D00E68C80 /* ParkInfoDetailTableViewController.swift in Sources */,
 				3C3E45F11DDFB0DB00E68C80 /* Parking.swift in Sources */,
+				3C3E45F31DDFB5F700E68C80 /* ParkInfoTableViewCell.swift in Sources */,
 				3C40F4201DBD0010006C957E /* LoginViewController.swift in Sources */,
 				3C3E45EF1DDFB09B00E68C80 /* ParkingInfoViewController.swift in Sources */,
 				3C40F41C1DBBBE02006C957E /* SignUpViewController.swift in Sources */,
